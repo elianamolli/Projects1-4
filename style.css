@@ -1,0 +1,42 @@
+h1{ font-family: "Neuton", serif; 
+ 		font-size: 50px;
+ 		color: midnightblue;} 
+
+ 		#info { text-align: center;}
+
+ 		#info { text-transform: uppercase; }
+
+ body {
+ 		background-color: lightgray; 
+ 	}
+#info {position: relative}
+ #info::before {
+ 	content:"";
+ 	position: absolute;
+ 	inset: 0;
+ 		background-image: url("images/cloudysky.png");
+ 		background-size: cover;
+ 		background-position: center;
+ 		opacity: 0.3;
+ 		z-index: 0;
+ 	}
+ #info > *{position: relative; 
+ 	z-index: 1}
+#info h1 {opacity: 1.0 !important}
+
+
+ h2{ font-family: "Neuton", serif; 
+ 	color: cadetblue;}
+
+ .highlight {
+ 	color: cadetblue;
+ }
+
+ #specialText {
+ 	color: tomato;
+ }
+
+ .center-image {
+ 	display: block;
+ 	margin: 0 auto;
+ }
