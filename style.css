@@ -1,3 +1,4 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
 h1{ font-family: "Neuton", serif; 
  		font-size: 50px;
  		color: midnightblue;} 
@@ -39,4 +40,13 @@ h1{ font-family: "Neuton", serif;
  .center-image {
  	display: block;
  	margin: 0 auto;
+ }
+
+ ul {
+ 	list-style-position: inside;
+ }
+
+ #header {
+ 	background-image: url(images/cloudysky.png);
+
  }
